@@ -55,7 +55,7 @@ public class MedianSplit {
             }
         }
 
-        if (l < r) {
+        if (l+1 < r) {
             return true;
         }
 
